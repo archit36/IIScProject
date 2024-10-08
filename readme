@@ -1,1 +1,39 @@
-.
+The project focuses on designing and optimizing a Deep Q-Network (DQN) to autonomously control a lunar lander in a simulated environment. The
+primary challenge is to enable the lander to: 
+
+Safely Reach the Target: Navigate and land on a specified location on the
+lunar surface.
+
+Optimal Thrust Control: Manage the thrust to balance fuel efficiency and
+control during descent.
+
+Precise Orientation: Adjust the lander's orientation to ensure a stable
+approach to the landing site.
+
+Control Landing Speed: Minimize landing velocity to avoid crashes.
+
+CURRENT BENCHMARKS :
+
+The benchmarks for DQN on the Lunar Lander problem include:
+
+Original DQN (Mnih et al., 2015): Basic implementation with experience
+replay and target networks.
+
+Double DQN: Reduces overestimation bias, leading to more stable training.
+
+Dueling DQN: Separates the state value and action advantage, enhancing
+learning efficiency.
+
+Rainbow DQN: Integrates multiple improvements such as prioritized
+experience replay, multi-step learning, and distributional RL.
+
+-------------------------------------------------------------------
+
+This project demonstrates the impact of advanced DQN variants in solving the Lunar
+Lander control problem.
+
+The transition from Vanilla DQN to Rainbow DQN shows significant improvements in
+training speed, stability, and overall performance.
+
+Rainbow DQN, by integrating multiple enhancements, offers the most robust solution,
+achieving fast convergence and high success rates.
